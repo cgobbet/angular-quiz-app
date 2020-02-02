@@ -1,6 +1,6 @@
-# AngularQuizApp
+# Human Rights quiz app with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23. It is a simple quiz app with a few quiz options about human rights in the world. The app development has all been done in this <a href="https://github.com/cgobbet/human-rights-quiz" target="_blank">repository</a> and migrated here for deployment purposes.
 
 ## Development server
 
