@@ -1,0 +1,63 @@
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+.top-container {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  background-color: #781820;
+  color: white;
+  padding: 0.8em;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: inline-block;
+  justify-content: center;
+}
+.quiz-card {
+  max-width: 400px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.card-title {
+  font-family: 'Oswald', sans-serif;
+  margin: -0.2em;
+}
+
+.card-description {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 0.8em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.main-image {
+  width: 100%;
+  margin: 0;
+}
+
+.mat-raised-button {
+  margin: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.4rem;
+  background-color: #781820;
+  color: white;
+  line-height: 1rem;
+  float: right;
+  border-radius: 4px;
+}
+
+.mat-raised-button:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.4rem;
+  background-color: #781820;
+  color: #cead00;
+  line-height: 1rem;
+  float: right;
+  border-radius: 4px;
+}

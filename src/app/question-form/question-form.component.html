@@ -1,0 +1,22 @@
+<div class="top-container">
+  <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="center">
+    <span>
+      <h1 class="header">Just another human rights violation...</h1>
+    </span>
+  </div>
+</div>
+<div class="quiz" *ngIf="question">
+  <h2>{{ question.label }}</h2>
+  <form [formGroup]="form">
+    <div class="form-group">
+      <label *ngFor="let choice of question.choices" class="answerChoices">
+        <input type="radio" 
+        [value]="choice" 
+        formControlName="choice" />
+        <span>
+          {{ choice.value }} <br/>
+        </span>
+      </label>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Oh, say can you see...",
+    "name": "human",
+    "description": "America's GDPs goes up, so does the poverty numbers in blessed America",
+    "fileName": "human.json"
+  },
+  {
+    "label": "Rwanda: Wip'em'out",
+    "name": "rights",
+    "description": "In 1994, 13% of the population has been killed in 100 days",
+    "fileName": "rights.json"
+  },
+  {
+    "label": "...and overall the situation...",
+    "name": "violation",
+    "description": "'Civilization is a hopeless race to discover remedies for the evils it produces'",
+    "fileName": "violation.json"
+  }
+]

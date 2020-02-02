@@ -1,0 +1,51 @@
+<div class="grid-container">
+  <div>
+    <div *ngFor="let q of quiz">
+      <mat-card class="quiz-card">
+
+          <mat-card-title>{{ q.label }}</mat-card-title>
+
+        <img mat-card-image src="https://i.imgur.com/oKUsUUU.jpg" alt="question mark" />
+        <mat-card-content>{{ q.description }}</mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">
+            <a routerLink="/{{ q.name }}">Pick Me!</a>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
+
+<div>{{ q.label }}</div>
+<div>{{ q.description }}</div>
+<button mat-raised-button color="primary">
+  <a routerLink="/{{ q.name }}">Pick Me!</a>
+</button>
+
+
+<!-- <div class="tool-bar-container">
+  <mat-toolbar>
+    <span>
+      <h1 class="header">Burning Metal Test!</h1>
+    </span>
+  </mat-toolbar>
+</div>
+<div class="grid-container">
+  <div [cols]="breakpoint" rowHeight="2:2.5" (window:resize)="onResize($event)" gutterSize="20px">
+    <div *ngFor="let q of quiz">
+      <mat-card class="quiz-card">
+        <mat-card-header>
+          <mat-card-title>{{ q.label }}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="https://i.imgur.com/oKUsUUU.jpg" alt="question mark" />
+        <mat-card-content>{{ q.description }}</mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">
+            <a routerLink="/{{ q.name }}">Pick Me!</a>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div> -->

@@ -1,0 +1,67 @@
+[
+  {
+    "label": "Almost 1 million people have been killed in Rwanda, 1994",
+    "choices": [
+      {
+        "value": "It's true: 800,000 were slaughtered in 100 days",
+        "correct": true
+      },
+      {
+        "value": "It's not true",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which percentage of the population have been killed?",
+    "choices": [
+      {
+        "value": "Staggering 13% of the country died",
+        "correct": true
+      },
+      {
+        "value": "An irrelevant percentage died",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which was the root causes of the massacre?",
+    "choices": [
+      {
+        "value": "The fight began due to tribal rivalry",
+        "correct": false
+      },
+      {
+        "value": "The massacre in Rwanda was born in its colonial past",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What has the world done to stop it?",
+    "choices": [
+      {
+        "value": "The world watched the genocide ignoring the alerts from observers",
+        "correct": true
+      },
+      {
+        "value": "The UN did every thing it could to avoid violence",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "How many people have been convicted for the genocide",
+    "choices": [
+      {
+        "value": "61 people were given sentences out of an estimated 2,000 war criminals",
+        "correct": true
+      },
+      {
+        "value": "All of the guilty went to jail",
+        "correct": false
+      }
+    ]
+  }
+]

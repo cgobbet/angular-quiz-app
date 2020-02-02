@@ -1,0 +1,15 @@
+<div class="top-container">
+  <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="center">
+    <span>
+      <h1 class="header">Just another human rights violation...</h1>
+    </span>
+  </div>
+</div>
+<div class="results">
+  <h2>Results</h2>
+  <div class="answer" *ngFor="let a of answers.values" [ngClass]="{ correct: a.correct }">
+    {{ a.value }}
+  </div>
+</div>
+<button mat-raised-button routerLink="/welcome">Wanna know more?
+</button>

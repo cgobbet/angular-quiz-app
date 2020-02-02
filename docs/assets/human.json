@@ -1,0 +1,61 @@
+[{
+		"label": "Thousand of migrant families separated at the border every year",
+		"choices": [{
+				"value": "True: in 2019, 2500 families have been separated",
+				"correct": true
+			},
+			{
+				"value": "It's fake news: no families are separated",
+				"correct": false
+			}
+		]
+	},
+	{
+		"label": "Are children admitted to adult prisons?",
+		"choices": [{
+				"value": "Yes: 32,000 children were thrown in adult prisons last year",
+				"correct": true
+			},
+			{
+				"value": "Just another leftist lie: there are no kids in jail",
+				"correct": false
+			}
+		]
+	},
+	{
+		"label": "Are afro-american youngsters more targeted by police?",
+		"choices": [{
+				"value": "If you are black, you have 50% more chances of being shot by authorities",
+				"correct": true
+			},
+			{
+				"value": "Only lies: the police only kills criminals",
+				"correct": false
+			}
+		]
+	},
+	{
+		"label": "What Edward Snowden earned by denouncing the NSA?",
+		"choices": [{
+				"value": "Snowden lost all possessions and has not been given a fair trial",
+				"correct": true
+			},
+			{
+				"value": "Snowden is a comunist working for crooked Hillary",
+				"correct": false
+			}
+		]
+	},
+	{
+		"label": "The US have a US$19 trillion GDP: are there poor people there?",
+		"choices": [{
+				"value": "45 million people in the US are poor, no matter how rich is the country",
+				"correct": true
+			},
+			{
+				"value": "You probably are not even American, what do you care?",
+				"correct": false
+			}
+		]
+	}
+]

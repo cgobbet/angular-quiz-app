@@ -1,0 +1,79 @@
+[
+  {
+    "label": "Currently, in how many countries armed groups committed abuses?",
+    "choices": [
+      {
+        "value": "35 monitored countries have armed groups abuses right now",
+        "correct": true
+      },
+      {
+        "value": "None, the governments do not allow it",
+        "correct": false
+      },
+      {
+        "value": "All countries have armed groups",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which is the percentage of countries that condone or promote torture or ill-treatment?",
+    "choices": [
+      {
+        "value": "82% countries have some degree of leniency towards torture",
+        "correct": true
+      },
+      {
+        "value": "There is no torture in the world",
+        "correct": false
+      },
+      {
+        "value": "Torture happens in 25% of the countries",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "As in 2014, how many governments still committed war crimes?",
+    "choices": [
+      {
+        "value": "War crimes are a thing from the past",
+        "correct": false
+      },
+      {
+        "value": "Only North Korea allows torture",
+        "correct": false
+      },
+      {
+        "value": "18 states promote war crimes somehow",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Is consensual sex among people of the same sex a crime somewhere?",
+    "choices": [
+      {
+        "value": "Yes, 78 states provide some punishment for same-gender sex",
+        "correct": true
+      },
+      {
+        "value": "No, same-sex relationships are free in all places",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Each 12 hours, a migrant dies drowned trying to reach Europe. Is this statement:",
+    "choices": [
+      {
+        "value": "True, almost 750 people drowned fleeing Africa in 2019",
+        "correct": true
+      },
+      {
+        "value": "There are no drowning cases in the Mediterranean",
+        "correct": false
+      }
+    ]
+  }
+]

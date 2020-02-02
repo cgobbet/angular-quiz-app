@@ -1,0 +1,100 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1,
+.mat-toolbar-row, 
+.mat-toolbar-single-row  {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.mat-toolbar-row, 
+.mat-toolbar-single-row, 
+.mat-toolbar,
+.toolbar {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  // text-align: center;
+  background-color: #781820;
+  // margin-bottom: 20px;
+}
+
+.toolbar-container {
+  margin-top: 3vw;
+}
+
+.mat-card-actions {
+  margin: 4px;
+}
+
+.btn, 
+.btn-success {
+  margin: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #781820;
+  color: white;
+  line-height: 16px;
+  float: left;
+  border-radius: 4px;  
+} 
+
+.btn btn-success:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #781820;
+  color: #cead00;
+  line-height: 16px;
+  float: right;
+  border-radius: 4px;
+} 
+
+.mat-raised-button {
+  margin: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #781820;
+  color: white;
+  line-height: 16px;
+
+  border-radius: 4px;
+} 
+
+.mat-raised-button:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #781820;
+  color: #cead00;
+  line-height: 16px;
+
+  border-radius: 4px;
+} 
+
+.card {
+  font-family: 'Roboto', sans-serif;
+  width: 80%;
+  background-color: #343232;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.card-title {
+  font-family: 'Oswald', sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.form-group {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 0.8em;
+}

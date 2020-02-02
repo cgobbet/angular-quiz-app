@@ -1,0 +1,34 @@
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+  padding-left: 0.8em;
+}
+
+span {
+  padding: 8px;
+  font-size: 1rem;
+  // margin-bottom: 1em;
+}
+
+.top-container {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  background-color: #781820;
+  color: white;
+  padding: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.answerChoices {
+  font-size: 1.25em;
+  padding-left: 0.8em;
+}

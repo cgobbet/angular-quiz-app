@@ -1,0 +1,30 @@
+<div class="top-container">
+  <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="center">
+    <span>
+      <h1 class="header">Just another human rights violation...</h1>
+    </span>
+  </div>
+</div>
+<div fxLayout="row wrap" 
+      fxLayout.lt-sm="column" 
+      fxLayoutGap="20px" 
+      fxLayoutAlign="center">
+  <mat-card *ngFor="let q of quiz" 
+            class="quiz-card" 
+            fxFlex="0 1 calc(33.3% - 20px)" 
+            fxFlex.lt-md="0 1 calc(50% - 20px)"
+            fxFlex.lt-sm="100%">
+    <mat-card-header>
+      <mat-card-title class="card-title">{{ q.label }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image 
+              class="main-image" 
+              src="https://i.ibb.co/55RgM9S/humanrights.jpg" 
+              alt="Human Rights Violations everywhere"/>
+    <mat-card-content class="card-description">{{ q.description }}</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button routerLink="/{{ q.name }}">Click
+        </button>
+      </mat-card-actions>
+  </mat-card>
+</div>

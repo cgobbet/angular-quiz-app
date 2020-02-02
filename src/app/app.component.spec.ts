@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-quiz-app'`, () => {
+  it(`should have as title 'motorhead-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angular-quiz-app');
+    expect(app.title).toEqual('motorhead-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-quiz-app app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('Ace of Spades is running!');
   });
 });
