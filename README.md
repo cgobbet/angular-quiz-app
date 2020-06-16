@@ -1,4 +1,3 @@
-Inline-style: 
 ![Angular Quiz](https://i.ibb.co/2h8Mmd5/Photo-by-CLAY-BANKS-on-Unsplash.jpg "Logo Title Text 1")
 
 # Human Rights quiz app with Angular
