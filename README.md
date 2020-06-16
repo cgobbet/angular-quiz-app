@@ -1,3 +1,6 @@
+Inline-style: 
+![Angular Quiz](https://i.ibb.co/2h8Mmd5/Photo-by-CLAY-BANKS-on-Unsplash.jpg "Logo Title Text 1")
+
 # Human Rights quiz app with Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23. It is a simple quiz app with a few quiz options about human rights in the world. The app development has all been done in this <a href="https://github.com/cgobbet/human-rights-quiz" target="_blank">repository</a> and migrated here for deployment purposes.
